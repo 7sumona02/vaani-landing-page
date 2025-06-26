@@ -13,19 +13,29 @@ import Works from '@/components/Works'
 import React from 'react'
 
 const page = () => {
+    const scrollRef = React.createRef();
+
+  // useEffect(() => {
+  //   const scroll = new locomotiveScroll({
+  //     el: scrollRef.current as HTMLElement,
+  //     smooth: true
+  //   });
+  // });
   return (
-    <div className='overflow-hidden'>
-      <Hero />
-      <Choose />
-      <Get />
-      <Beats />
-      <Works />
-      <Uses />
-      <Pricing />
-      <Testimonial />
-      <FAQ />
-      <CTA />
-      <Footer />
+    <div className='overflow-hidden h-screen bg-black'>
+      <div className='scroll' ref={scrollRef as React.RefObject<HTMLDivElement>}>
+        <Hero />
+        <Choose />
+        <Get />
+        <Beats />
+        <Works />
+        <Uses />
+        <Pricing />
+        <Testimonial />
+        <FAQ />
+        <CTA />
+        <Footer />
+      </div>
     </div>
   )
 }
