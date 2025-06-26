@@ -3,7 +3,7 @@ import { PricingCard } from "./PricingCard"
 const Pricing = () => {
   return (
      <div className='h-fit w-full bg-black pt-20 pb-54 relative'>
-        <div className='container max-w-6xl mx-auto text-white/60 px-20 pt-14 pb-6 relative flex flex-col gap-4'>
+        <div className='container max-w-6xl mx-auto text-white/60 md:px-20 px-5 pt-14 pb-6 relative flex flex-col gap-4'>
            <div className='font-bold pb-12  leading-[5rem] text-5xl bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500 tracking-wide'>Pricing</div>
                <section className="relative overflow-hidden text-foreground">
       <div className="relative">

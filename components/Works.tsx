@@ -3,7 +3,7 @@ import { ChevronRight } from "lucide-react"
 const Works = () => {
   return (
      <div className='min-h-screen w-full bg-black pt-20 pb-16 relative overflow-hidden'>
-        <div className='container max-w-6xl mx-auto text-white/60 px-20 pt-14 pb-6 relative flex flex-col gap-4'>
+        <div className='container max-w-6xl mx-auto text-white/60 md:px-20 px-5 pt-14 pb-6 relative flex flex-col gap-4'>
           <div className='pb-12'>
              <div className='font-bold leading-[5rem] text-5xl bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500 tracking-wide'>How it Works</div>
              <p className='text-xl text-white/60 font-semibold'>No code. No setup. Everything runs in your browser.</p>

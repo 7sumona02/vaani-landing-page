@@ -89,7 +89,7 @@ export const Card: React.FC<CardProps> = ({
         className={`flex flex-col relative -top-[18%] h-fit w-[70%] rounded-md p-10 origin-top`}
       >
         <img src='/GetBg.svg' className='absolute inset-0 w-screen rounded-2xl' />
-        <div className='relative z-50 h-[34rem] flex items-center justify-center space-x-12'>
+        <div className='relative z-50 h-[34rem] flex md:flex-row flex-col items-center justify-center space-x-12'>
             <div className='font-medium text-[12rem] bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-600 '>{num}</div>
             <div>
                 <div className='flex flex-col items-start gap-4 justify-center max-w-2xl z-50'>

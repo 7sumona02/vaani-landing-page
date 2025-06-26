@@ -11,7 +11,7 @@ import { Check, X } from "lucide-react"
 const Beats = () => {
   return (
     <div className='h-fit w-full bg-black pb-54 relative'>
-        <div className='container max-w-6xl mx-auto text-white/60 px-20 pt-14 pb-6 relative flex flex-col gap-4'>
+        <div className='container max-w-6xl mx-auto text-white/60 md:px-20 px-5 pt-14 pb-6 relative flex flex-col gap-4'>
            <div className='font-bold pb-12 leading-[3.5rem] text-5xl bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-500 tracking-wide'>Why Vaani Beats <br /> the Rest</div>
            <div className="bg-white/10 p-6 pb-20 border border-white/30 rounded-2xl">
 <Table>

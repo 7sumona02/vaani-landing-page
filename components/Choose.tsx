@@ -6,7 +6,7 @@ import { GlowingEffect } from "./ui/glowing-effect";
 export default function Choose() {
   return (
         <div className='h-fit w-full bg-black pt-20 pb-20 relative'>
-        <div className='container max-w-6xl mx-auto text-white/60 px-20 pt-14 pb-6 relative flex flex-col gap-4'>
+        <div className='container max-w-6xl mx-auto text-white/60 md:px-20 px-5 pt-14 pb-6 relative flex flex-col gap-4'>
            <div className='font-bold pb-12  leading-[5rem] text-5xl bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500 tracking-wide'>Why Creators Choose Vaani</div>
             <ul className="grid md:grid-cols-3 grid-cols-1 gap-4">
             <GridItem

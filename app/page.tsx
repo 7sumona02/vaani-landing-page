@@ -22,7 +22,7 @@ const page = () => {
   //   });
   // });
   return (
-    <div className='overflow-hidden h-screen bg-black'>
+    <div className='overflow-hidden bg-black'>
       <div className='scroll' ref={scrollRef as React.RefObject<HTMLDivElement>}>
         <Hero />
         <Choose />
